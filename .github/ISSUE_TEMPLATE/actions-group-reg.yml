@@ -10,10 +10,10 @@ body:
         Are you ready to explore the Possibilities of Actions ? Ready to Collaborate ?  
       
   - type: textarea
-    id: feedback
+    id: think
     attributes:
-      label: Actions Workshop Feedback
-      description: Workshop Feedback/actions ideas/challenges/etc. 
+      label: What you think ?
+      description: How you want to contribute and leverage the GitHub Actions User Group ?
       placeholder: Tell us what you feel!      
     validations:
       required: true
