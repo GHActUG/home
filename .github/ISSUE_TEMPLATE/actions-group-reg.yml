@@ -1,0 +1,28 @@
+name: India Actions User Group
+description: Registration for India Actions User Group
+title: "[AG]: "
+labels: ["action"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Are you ready to explore the Possibilities of Actions ? Ready to Collaborate ?  
+      
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Actions Workshop Feedback
+      description: Workshop Feedback/actions ideas/challenges/etc. 
+      placeholder: Tell us what you feel!      
+    validations:
+      required: true
+ 
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Ready to Join the India Actions User Group ?
+      description: By submitting this issue, you agree to join the India Actions User Group
+      options:
+        - label: I agree to join the India Actions User Group
+          required: true
